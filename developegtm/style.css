@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding-inline: 100px;
+    align-items: center;
+    border-bottom: solid rgb(221 221 221) 1px;
+    position: fixed;
+    width: -webkit-fill-available;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.navbar img {
+    width: 75px;
+    border-radius: 9px;
+}
+
+.menu {
+    column-gap: 30px;
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+#Join {
+    border: 1.9px solid black;
+    width: 119px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.srch-icon.srch-icon {
+    font-size: 20px;
+    display: flex;
+    margin-top: -26px;
+    color: #919ba3;
+    left: 201px;
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+}
+
+.srch input {
+    width: 230px;
+    height: 33px;
+    padding: 8px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.email i {
+    font-size: 24px;
+}
+
+.email span {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.hero-sec h1 {
+    font-weight: bolder;
+    display: flex;
+    padding-top: 17%;
+    font-size: 42px;
+    font-family: 'Poppins';
+    margin-left: 9%;
+}
+
+.hero-sec p {
+    width: 42%;
+    display: flex;
+    text-align: justify;
+    padding-left: 9%;
+    font-family: system-ui;
+}
+
+.hero-sec span {
+    display: contents;
+    color: purple;
+}
+
+.span2 {
+    display: contents;
+    font-weight: bolder;
+    color: black;
+}
+
+.sectwo img {
+    display: initial;
+    margin-top: -29%;
+    margin-left: 56%;
+    width: 567px;
+    height: 456px;
+    border-radius: 5px;
+}
+
+.twobtn {
+    margin-left: 9%;
+    margin-top: 19px;
+    column-gap: 20px;
+    display: flex;
+}
+
+.twobtn button {
+    width: 88px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#btnone {
+    background: black;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 3.15) 0.95px 2.95px 8.6px;
+}
+
+#btntwo {
+    background: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 3.15) 0.95px 2.95px 8.6px;
+}
+
+#btnone:hover {
+    background: white;
+    border: none;
+    transition: all 0.5s ease;
+    color: black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 3.15) 0.95px 2.95px 8.6px;
+}
+
+#btntwo:hover {
+    background: black;
+    border: none;
+    transition: all 0.5s ease;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 3.15) 0.95px 2.95px 8.6px;
+}
+
+.cousers .co {
+    display: flex;
+    justify-content: center;
+    font-size: 63px;
+    font-family: sans-serif;
+    line-height: 101px;
+    color: black;
+}
+
+.cousers{
+    height: 527px;
+    margin-top: 20px;
+}
+
+.course-sec{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course-sec .box {  
+    width: 291px;
+    height: 370px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 35px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.box img{
+    display: flex;
+    width: 289px;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 170px;
+}
+
+.box p{
+    font-family: 'Poppins';
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.box .para{
+    width: auto;
+    font-size: 21px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.box .about-html{
+    width: auto;
+    padding: 25px;
+    margin-top: -14px;
+}
+
+.box .about-js{
+    width: auto;
+    padding: 25px;
+    margin-top: -14px;
+}
+
+.box .about-css{
+    width: auto;
+    padding: 25px;
+    margin-top: -14px;
+}
+
+.box .about-python{
+    width: auto;
+    padding: 25px;
+    margin-top: -14px;
+}
+
+.box button{
+    margin-left: 24px;
+    height: 32px;
+    width: 85px;
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background: purple;
+}
+
+.box{
+    margin: 21px 7px;
+}
+
+.contact-sec{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 110px;
+}
+
+.contact-sec h1{
+    display: contents;
+}
+
+.container-one{
+    background: azure;
+    width: 60%;
+    margin-left: -10%;
+    display: flex;
+    padding-top: 51px;
+    height: 220px;
+    justify-content: center;
+}
+
+.container-two{
+    background: white;
+    width: 60%;
+    margin-right: -110px;
+    padding-top: 51px;
+    display: flex;
+    height: 220px;
+    justify-content: center;
+}
+
+.web h1{
+    display: block;
+    margin-top: -17%;
+}
+
+.web p{
+    width: 81%;
+}
+
+.web button{
+    padding: 9px 30px;
+    font-size: 16px;
+    font-family: math;
+    margin-left: 61px;
+    margin-top: 20px;
+    background: paleturquoise;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-one .icon{
+    display: flex;
+    font-size: 51px;
+    margin-top: 74px;
+    align-items: baseline;
+    column-gap: 19px;
+    margin-left: -276px;
+    cursor: pointer;
+}
+
+.container-one .icon .social{
+    background: #ffeec6;
+    width: 77px;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.icon .social:hover{
+    background: white;
+    border: 1px solid black;
+}
+
+.container-two button:hover{
+    background: aliceblue;
+    border: 1px solid black;
+}
+
+.box button:hover{
+    background: aliceblue;
+    border: 1px solid black;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 1363px){
+   .sectwo img{
+    display: none;
+   }
+   .hero-sec h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+   }
+   .hero-sec p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: auto;
+    padding: 38px;
+   }
+
+   .hero-sec .twobtn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   }
+
+   .course-sec .box{
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+   }
+
+   .course-sec .all-box{
+    margin: 22px auto;
+    height: auto;
+   }
+
+   .box .para{
+    margin-top: -67px;
+   }
+
+.navbar{
+    display: none;
+}
+
+.cs{
+    margin-top: -117px;
+}
+.contact-sec{
+    display: none;
+}
+
+.box .about-sec{
+    margin-top: -52px;
+}
+
+.box button{
+    display: flex;
+    margin: auto;
+}
+
+.box .java{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: -37px;
+}
+
+.box .py{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: -37px;
+}
+}
